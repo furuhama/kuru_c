@@ -11,5 +11,12 @@ int main() {
     // p = 0x7ffee4c3e934
     // &i = 0x7ffee4c3e934
 
+    int *np = NULL;
+
+    printf("np = %p\n", np);
+
+    // np = 0x0
+
+
     return 0;
 }
