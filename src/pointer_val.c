@@ -14,6 +14,11 @@ int main() {
     printf("np = %p\n", np);
     // np = 0x0
 
+    int *p1, i1;
+    p1 = &i1;
+    *p1 = 10;
+    printf("*p1 = %d\n", *p1);
+    printf("i1 = %d\n", i1);
 
     return 0;
 }
